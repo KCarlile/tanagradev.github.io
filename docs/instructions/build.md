@@ -33,4 +33,4 @@ $ tanagra build book_name build_directory/
 ```
 
 ## Next Steps
-Now that your book template has been generated, you can populate your `metadata.md` and `outline.md` files. Once those are complete, you can [convert your outline to a book template](convert.md).
+Now that your book template has been generated, you can populate your `metadata.md` and `outline.md` files. Once those are complete, you can [convert your outline to a book template](convert.html).

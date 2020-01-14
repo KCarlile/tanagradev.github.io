@@ -19,6 +19,9 @@ In _Interactive Mode_, the user supplies the least information possible to the T
 
 In _Command Mode_, the user supplies all of the necessary parameters at the time of calling the Tanagra main program. _Command Mode_ is more suitable for scripting or advanced users. Advanced users who wish to script builds may also want to [call each Tanagra sub-script individually](#calling-scripts-directly).
 
+## **Setup Tanagra on your Local Computer**
+See [Setup](setup.html).
+
 ## **Build a Book Template**
 See [Build a Book Template](build.html).
 

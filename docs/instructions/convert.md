@@ -48,4 +48,4 @@ $ tanagra convert outline.md new_book/
 ```
 
 ## Next Steps
-Now that your book directory and file structure has been generated, you can write your book in the `content/` directory and generated \*.md files. When your book is complete, you can [compile your markdown into a rendered book](compile.md).
+Now that your book directory and file structure has been generated, you can write your book in the `content/` directory and generated \*.md files. When your book is complete, you can [compile your markdown into a rendered book](compile.html).

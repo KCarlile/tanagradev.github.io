@@ -11,28 +11,107 @@ nav_order: 1
 ---
 
 # User Instructions
-The following instructions are calling the various commands for building a book using the Tanagra main script.
+The following instructions are calling the various commands for creating a book using the Tanagra main script.
 
-There are two ways to run the commands: _Interactive Mode_ or _Command Mode_.
+In general, the process to use Tanagra is as follows:
+1. **Setup Tanagra on your local computer.** See [Setup](setup.html).
+1. **Build a book template.** See [Build a Book Template](build.html).
+1. **Populate the `outline.md` file**
+1. **Convert the completed outline file into a directory and file structure.** See [Convert an Outline into a Directory and File Structure](convert.html).
+1. **Write the content of your book in the generated files of the `content/` directory.**
+1. **Compile markdown into a rendered book.** See [Compile Markdown into a Rendered Book](compile.html).
 
-In _Interactive Mode_, the user supplies the least information possible to the Tanagra main program and the user is prompted to enter data when needed. **If you aren't sure which mode to use,** stick with _Interactive Mode_ as the same code is executed, but with a simpler user experience.
+## Calling Tanagra
+There are two ways to call Tanagra: interactive mode or command mode.
 
-In _Command Mode_, the user supplies all of the necessary parameters at the time of calling the Tanagra main program. _Command Mode_ is more suitable for scripting or advanced users. Advanced users who wish to script builds may also want to [call each Tanagra sub-script individually](#calling-scripts-directly).
+### Interactive
+In interactive mode, you just call Tanagra and it will prompt you for what you want to do:
+```bash
+$ tanagra
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
 
-## **Setup Tanagra on your Local Computer**
-See [Setup](setup.html).
+Please enter a number to specify a command.
+ [1] Build a new book template
+ [2] Convert outline into file structure
+ [3] Compile markdown files and media into a book
+ [4] Exit Tanagra
+```
 
-## **Build a Book Template**
-See [Build a Book Template](build.html).
+In command mode, you provide the command and bypass Tanagra's prompts:
 
-## **Convert an Outline into a Directory and File Structure**
-See [Convert an Outline into a Directory and File Structure](convert.html).
+### Build
+```bash
+$ tanagra build
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
 
-## **Compile Markdown into a Rendered Book**
-See [Compile Markdown into a Rendered Book](compile.html).
+Building book template.
+Checking current working directory (/Users/user/Books) for project...
+Tanagra project not found in current directory: /Users/user/Books
+What is a short name for your book project? This is not your title. [new_book_20200113-201753]
+```
 
-## Calling Scripts Directly
-If you want to bypass the Tanagra main program, you can call the individual scripts directly from within the `scripts/` directory of the Tanagra installation, which is probably `/usr/local/tanagra/scripts/`. The following scripts can be called directly using the same parameters outlined in the instructions above:
-- build_template.py: direct script call for `tanagra build`
-- convert_outline.py: direct script call for `tanagra convert`
-- compile_book.py: direct script call for `tanagra compile`
+### Convert
+```bash
+$ tanagra convert
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
+
+Converting outline into file structure.
+Checking current working directory (/Users/user/Books/magic_tricks_for_dogs) for project...
+...
+```
+
+
+### Compile
+```bash
+$ tanagra compile pdf
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
+
+Compiling markdown into book.
+Checking current working directory (/Users/user/Books/magic_tricks_for_dogs) for project...
+...
+```
+
+Alternately, you can call compile command in semi-interactive mode:
+
+```bash
+$ tanagra compile
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
+
+Compiling markdown into book.
+Checking current working directory (/Users/user/Books/magic_tricks_for_dogs) for project...
+Warning: Content directory is not empty.
+Please select the output format for your rendered book.
+ [1] PDF
+ [2] EPUB
+ [3] HTML
+...
+```
+
+## More Information
+For more details on each step in the process of building a book with Tanagra, please view these sections:
+- [Setup](setup.html)
+- [Build](build.html)
+- [Outline](outline.html)
+- [Convert](convert.html)
+- [Content](content.html)
+- [Compile](compile.html)

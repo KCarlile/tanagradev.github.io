@@ -6,11 +6,11 @@ layout: home
 title: Compile
 parent: Instructions
 grand_parent: Docs
-nav_order: 4
+nav_order: 6
 ---
 
 # Compile
-# **Compile Markdown into a Rendered Book**
+# **Compile the Content Markdown into a Rendered Book**
 **#TODO:** _Needs documentation._
 
 

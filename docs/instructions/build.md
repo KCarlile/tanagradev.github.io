@@ -17,20 +17,42 @@ A book template includes a book directory with the following:
 - outline markdown file: your book's outline used for generating file and directory structure
 - metadata markdown file: information about your book
 
-## **tagangra build** [_book_name_ _build_directory_]
-Generates a book directory with the name _book_name_ (optional) in the specified build directory (optional). Within the newly created book directory, `content/` and `output/` directories will be created. In addition, an outline markdown file (`outline.md`) and a metadata file (`metadata.md`) will be created in the root of the new book directory.
+## **_tanagra build_**
+First, you should navigate to the directory in which you would like to generate the book template. The build command will create a new directory within the *current working directory*.
 
-### Interactive Mode
-Call the Tanagra main program by passing the `build` command and you will be prompted for the book name and desired book directory:
+```bash
+$ cd Books/
+```
+
+The build command will prompt you for a book project name. You can enter a specific name or press enter to accept the auto-generated name.
+
 ```bash
 $ tanagra build
+-------------------------------------
+| Tanagra                           |
+|   A markdown book pipeline tool   |
+|   https://www.tanagra.dev/        |
+-------------------------------------
+
+Building book template.
+Checking current working directory (/Users/user/Books) for project...
+Tanagra project not found in current directory: /Users/user/Books
+What is a short name for your book project? This is not your title. [new_book_20200113-203331]
+Magic Tricks for Dogs
+Template creation completed.
+/Users/user/Books/magic_tricks_for_dogs/content
+/Users/user/Books/magic_tricks_for_dogs/output
+/Users/user/Books/magic_tricks_for_dogs/metadata.md
+/Users/user/Books/magic_tricks_for_dogs/outlne.md
 ```
 
-### Command Mode
-Optionally, you can include the book name (`book_name`) and the build directory (`build_directory/`):
-```bash
-$ tanagra build book_name build_directory/
-```
+In the output of the build command, you can see what was created:
+- **content/:** a directory for storing your book's markdown files
+- **output/:** a directory for storing your rendered books (PDF, EPUB, or HTML)
+- **metadata.md:** a file for storing information about your project
+- **outline.md:** a file in which you can create your book's outline for later conversion into a book structure in the `content/` directory
+
+Your new Tanagra book project is now ready to begin working on your outline in the `outline.md` file.
 
 ## Next Steps
 Now that your book template has been generated, you can populate your `metadata.md` and `outline.md` files. Once those are complete, you can [convert your outline to a book template](convert.html).

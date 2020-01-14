@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: About
+permalink: /
 ---
 
 # Tanagra
@@ -14,7 +16,7 @@ Tanagra is a documentation pipeline tool for building a template for a markdown-
 Tanagra is written in Python 3.7.5+ and leverages the Bash shell. The source code is [hosted on GitHub](https://github.com/KCarlile/tanagra).
 
 # Documentation
-Please read the [Tanagra documentation](docs/index.md).
+Please read the [Tanagra documentation](docs/).
 
 # Maintainers
 - [KCarlile](https://github.com/KCarlile) (Founder)

@@ -10,14 +10,14 @@ nav_order: 2
 ---
 
 # Build
-# **Build a Book Template**
+## Build a Book Template
 A book template includes a book directory with the following:
 - content directory: this will contain your book's content
 - output directory: this will contain your book's rendered files (PDF, EPUB, HTML)
 - outline markdown file: your book's outline used for generating file and directory structure
 - metadata markdown file: information about your book
 
-## **_tanagra build_**
+## _tanagra build_
 First, you should navigate to the directory in which you would like to generate the book template. The build command will create a new directory within the *current working directory*.
 
 ```bash

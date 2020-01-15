@@ -7,7 +7,7 @@ title: Instructions
 parent: Docs
 has_children: true
 has_toc: false
-nav_order: 1
+nav_order: 2
 ---
 
 # User Instructions

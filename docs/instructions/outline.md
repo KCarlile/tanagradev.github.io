@@ -10,7 +10,7 @@ nav_order: 3
 ---
 
 # Outline
-## **Create a Book Outline**
+## Create a Book Outline
 
 Now that you've built your Tanagra book project, you're ready to begin creating your outline. When you first open your `outline.md` file found in the root of your project directory, you'll see something like this:
 
@@ -103,6 +103,7 @@ You can now edit your `outline.md` file to reflect your desired book outline bef
 - Note that the depth of each layer in the hierarchy determines whether it's a part (directory), chapter (file), or section/subsection (heading).
 - Currently, you must have at least one book part, so if you don't intend to have multiple parts, just make a part 0 and give it the title of your book.
 - Try to get your outline as good as you can before you convert it to content. If you need to make changes, you will have to do them manually or re-generate the content directory which will overwrite your previous writing in your markdown files.
+- You can name parts and chapters anything you want, but they will be compiled in alpha-numerical order, so you may wish to prefix with numbers.
 
 ## Next Steps
 When your outline is complete, you can proceed to [convert it into content directories and file structure](convert.html).

@@ -17,6 +17,10 @@ A book template includes a book directory with the following:
 - outline markdown file: your book's outline used for generating file and directory structure
 - metadata markdown file: information about your book
 
+![Tanagra Workflow: Build](/assets/images/tanagra-workflow-build.png "Tanagra Workflow: Build")
+
+*The `tanagra build` command will generate the project structure seen outlined in purple.*
+
 ## _tanagra build_
 First, you should navigate to the directory in which you would like to generate the book template. The build command will create a new directory within the *current working directory*.
 

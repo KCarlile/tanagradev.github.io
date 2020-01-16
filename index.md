@@ -15,6 +15,8 @@ Tanagra is a documentation pipeline tool for building a template for a markdown-
 ## "Tah-NAH-grah"
 It's pronounced *tah-NAH-grah* as in ["Darmok and Jalad at Tanagra."](https://en.wikipedia.org/wiki/Darmok) Hear it pronounced: [The Enterprise meets the Tamarians](https://www.youtube.com/watch?v=3-wzr74d7TI)
 
+Why *Tanagra?* Well, it's a great episode and it's about learning to communicate and translate. The Tanagra script is about facilitating communication and translating one format into another.
+
 ## Download Tanagra
 *Tanagra is currently in pre-stable-release mode.*
 

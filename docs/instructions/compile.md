@@ -13,6 +13,11 @@ nav_order: 6
 ## Compile the Content Markdown into a Rendered Book
 When you've completed writing your book or you'd like to generate a draft of the current state, you can use the `compile` command to convert the markdown and media in your `content` directory into a rendered e-book. Tanagra supports three different formats at this time: PDF, EPUB, HTML. Tanagra uses the [Pandoc universal document converter](https://pandoc.org/) behind the scenes to perform this conversion.
 
+
+![Tanagra Workflow: Compile](/assets/images/tanagra-workflow-compile.png "Tanagra Workflow: Compile")
+
+*The `tanagra compile book_format` command will convert the files in the `content/` directory into the specified `book_format` (PDF, EPUB, or HTML) seen outlined in purple.*
+
 ## **tagangra compile** [_book_format_]
 The `compile` command accepts a book format of `pdf`, `epub`, or `html`. If you do not provide a book format, Tanagra will ask you which format you would like to use.
 

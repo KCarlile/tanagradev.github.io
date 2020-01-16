@@ -12,11 +12,12 @@ permalink: /
 
 Tanagra is a documentation pipeline tool for building a template for a markdown-based book, generating a directory and file structure based on an outline, and then converting markdown files into HTML, PDF, and EPUB books using [Pandoc](https://pandoc.org/).
 
-# Development
-Tanagra is written in Python 3.7.5+ and leverages the Bash shell. The source code is [hosted on GitHub](https://github.com/KCarlile/tanagra).
+## Download Tanagra
+*Tanagra is currently in pre-stable-release mode.*
 
-# Documentation
+Download the latest release here: [Tanagra releases](https://github.com/TanagraDev/tanagra/releases)
+
+You can also clone the git repository here: [Tanagra git repository](https://github.com/TanagraDev/tanagra)
+
+## Get Started
 Please read the [Tanagra documentation](docs/).
-
-# Maintainers
-- [KCarlile](https://github.com/KCarlile) (Founder)

@@ -12,6 +12,9 @@ permalink: /
 
 Tanagra is a documentation pipeline tool for building a template for a markdown-based book, generating a directory and file structure based on an outline, and then converting markdown files into HTML, PDF, and EPUB books using [Pandoc](https://pandoc.org/).
 
+## "Tuh-nah-gruh"
+It's pronounced *tah-NAH-grah* as in ["Darmok and Jalad at Tanagra."](https://en.wikipedia.org/wiki/Darmok) Hear it pronounced: [The Enterprise meets the Tamarians](https://www.youtube.com/watch?v=3-wzr74d7TI)
+
 ## Download Tanagra
 *Tanagra is currently in pre-stable-release mode.*
 

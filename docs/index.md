@@ -7,15 +7,15 @@ title: Docs
 has_children: true
 nav_order: 1
 has_toc: false
+permalink: /docs/
 ---
 
 # Tanagra Documentation
 
 1. Index (this page)
-1. [Introduction](introduction.html)
+1. [Introduction](overview.html)
 1. [Instructions](instructions/index.html)
    1. [Setup](instructions/setup.html)
-   1. [Instructions](instructions/index.html)
    1. [Build a Book Template](instructions/build.html)
    1. [Create a Book Outline](instructions/outline.html)
    1. [Convert an Outline into a Directory and File Structure](instructions/convert.html)

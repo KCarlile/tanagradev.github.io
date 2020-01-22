@@ -7,6 +7,7 @@ title: Compile
 parent: Instructions
 grand_parent: Docs
 nav_order: 6
+permalink: /docs/instructions/compile.html
 ---
 
 # Compile
@@ -57,12 +58,21 @@ Please select the output format for your rendered book.
 When you've completed compiling your book, you can find it in the `output/` directory in your Tanagra project.
 
 ```bash
-$ ls -l output/
+$ ls -la output/
 total 152
--rw-r--r--  1 user  staff   5570 Jan 14 21:23 output.epub
--rw-r--r--  1 user  staff   1706 Jan 14 21:23 output.html
--rw-r--r--  1 user  staff  64753 Jan 14 21:21 output.pdf
+drwxr-xr-x  7 user  staff    224 Jan 21 23:26 .
+drwxr-xr-x  6 user  staff    192 Jan 21 23:26 ..
+drwxr-xr-x  2 user  staff     64 Jan 21 23:00 Part 0 - Part Title_media
+drwxr-xr-x  2 user  staff     64 Jan 21 23:00 Part 1 - Part Title_media
+-rw-r--r--  1 user  staff   5571 Jan 21 23:26 output.epub
+-rw-r--r--  1 user  staff   1706 Jan 21 23:25 output.html
+-rw-r--r--  1 user  staff  64753 Jan 21 23:26 output.pdf
 ```
 
+## Distribution
+Your PDF and EPUB versions of your book are ready to distribute, although you may wish to rename the files or use some kind of metadata editor to refine your files.
+
+For HTML distribution, simply bundle your HTML file with the media directories, just be sure to keep their relative paths the same. That is, wherever you put `output.html` (or whatever you rename it), you need to keep your media files in that same directory at the same level. If you rename your media directories, you'll need to modify your HTML to reference the newly named media directory paths.
+
 ## Next Steps
-With your book complete and compiled into PDF, EPUB, or HTML, you're not ready to publish! Congratulations on your completed book! :)
+With your book complete and compiled into PDF, EPUB, or HTML, you're now ready to publish! Congratulations on your completed book! :)

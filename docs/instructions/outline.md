@@ -7,6 +7,7 @@ title: Outline
 parent: Instructions
 grand_parent: Docs
 nav_order: 3
+permalink: /docs/instructions/outline.html
 ---
 
 # Outline

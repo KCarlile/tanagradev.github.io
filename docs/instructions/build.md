@@ -7,6 +7,7 @@ title: Build
 parent: Instructions
 grand_parent: Docs
 nav_order: 2
+permalink: /docs/instructions/build.html
 ---
 
 # Build

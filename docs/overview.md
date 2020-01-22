@@ -6,6 +6,7 @@ layout: home
 title: Overview
 parent: Docs
 nav_order: 1
+permalink: /docs/overview.html
 ---
 
 # Overview
@@ -15,8 +16,8 @@ Tanagra is a documentation pipeline tool for building a template for a markdown-
 1. **Decide on a topic for your book.** Tangara cannot help you with this step. :)
 1. **Create a book template using Tanagra.** This will generate a book content directory, an `outline.md` file,
 1. **Populate your book's `outline.md` file.** Using markdown, populate the `outline.md` file generated in step 1 above. See the outline structure below.
-1. **Convert your book's `outline.md` file into a book directory hierarchy and markdown files.** This step will create a hierarchy of directories (per part and chapter) and markdown files (per chapter) with sections and subsections stubbed out in the markdown files.
-1. **Write your book in the markdown files.** Using the chapter markdown files, populate your book within the files and headings populated in the previous step.
+1. **Convert your book's `outline.md` file into a book directory hierarchy and markdown files.** This step will create a hierarchy of directories (per part and chapter) and markdown files (per chapter) with sections and subsections stubbed out in the markdown files. Each part will also have its own directory to store media (images, etc.) for local reference. These will be included in the final compilation later.
+1. **Write your book in the markdown files.** Using the chapter markdown files, populate your book within the files and headings populated in the previous step. Also, you can add images or other media files to each book part's media directory.
 1. **Generate the final output file(s) for your book.** Once you have completed writing your book in the markdown files, you can generate a PDF, EPUB, or HTML version of your book.
 1. **Publish your book.** Tanagra cannot help you with this step either. Upload, email, or do whatever you need to do with your generated book to deliver it to your audience.
 

@@ -6,6 +6,7 @@ layout: home
 title: Technical
 parent: Docs
 nav_order: 3
+permalink: /docs/technical.html
 ---
 
 # Technical Information

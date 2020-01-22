@@ -9,6 +9,7 @@ grand_parent: Docs
 has_children: true
 has_toc: false
 nav_order: 1
+permalink: /docs/instructions/setup.html
 ---
 
 # Setup

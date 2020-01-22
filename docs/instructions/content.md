@@ -7,6 +7,7 @@ title: Content
 parent: Instructions
 grand_parent: Docs
 nav_order: 5
+permalink: /docs/instructions/content.html
 ---
 
 # Content
@@ -39,6 +40,8 @@ With your outline converted into a directory and file structure in the `content/
 
       ### Subsection Title
    ```
+   - *Part 0 - Part Title_media/*
+      - [media files for part 0 go here]
 - *Part 1 - Part Title/*
    - **Chapter 2 - Chapter Title.md**
    ```
@@ -64,6 +67,8 @@ With your outline converted into a directory and file structure in the `content/
 
       ### Subsection Title
    ```
+   - *Part 1 - Part Title_media/*
+      - [media files for part 1 go here]
 
 ## Writing Text
 In each of these markdown files (\*.md), you can use [GitHub's markdown style](https://guides.github.com/features/mastering-markdown/) to write your book under each chapeter, section, and subsection.
@@ -131,4 +136,13 @@ https://www.tanagra.dev << These links are automatic
 ---
 
 ## Media
-#TODO: TBD how media is handled
+As we saw above, the `tanagra convert` command will generate a directory for media in each book part directory. Place your media files for each respective book part in that media directory and then reference them using a local/relative reference. For example:
+
+For an image in *part 0* of your book...
+- `![Dogs doing magic!](Part 0 - Part Title_media/dogs_doing_magic.png)`
+
+For an image in *part 1* of your book...
+- `![Sleight of paw magic](Part 1 - Part Title_media/sleight_of_paw.png)`
+
+## Next Steps
+When you've completed authoring the markdown of your book, you can [compile your markdown into a rendered book](compile.html).

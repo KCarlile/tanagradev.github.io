@@ -19,7 +19,7 @@ In general, the process to use Tanagra is as follows:
 1. **Build a book template.** See [Build a Book Template](build.html).
 1. **Populate the `outline.md` file**
 1. **Convert the completed outline file into a directory and file structure.** See [Convert an Outline into a Directory and File Structure](convert.html).
-1. **Write the content of your book in the generated files of the `content/` directory.**
+1. **Write the content of your book in the generated files of the `content/` directory and add any media files to each book part's media Directory.**
 1. **Compile markdown into a rendered book.** See [Compile Markdown into a Rendered Book](compile.html).
 
 ## Calling Tanagra

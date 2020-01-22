@@ -76,6 +76,7 @@ project_directory/
             Chapter 2 - Chapter Title.md
                Section Title (text heading)
                   Subsection Title (text heading)
+         Part 0 - Part Title_media/
          Part 1 - Part Title/
             Chapter 3 - Chapter Title.md
                Section Title (text heading)
@@ -83,8 +84,8 @@ project_directory/
             Chapter 4 - Chapter Title.md
                Section Title (text heading)
                   Subsection Title (text heading)
-#TODO: media/ (need to figure out this part of the project)
+         Part 1 - Part Title_media/
 ```
 
 ## Next Steps
-Now that your book directory and file structure has been generated, you can write your book in the `content/` directory and generated \*.md files. When your book is complete, you can [compile your markdown into a rendered book](compile.html).
+Now that your book directory and file structure has been generated, you can write your book in the `content/` directory and generated \*.md files. Media files (images, etc.) will go in each book part's `..._media/` directory. You're now ready to [learn more about authoring content in your book](content.html).

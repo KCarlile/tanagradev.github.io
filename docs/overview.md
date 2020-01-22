@@ -6,6 +6,7 @@ layout: home
 title: Overview
 parent: Docs
 nav_order: 1
+permalink: /docs/overview.html
 ---
 
 # Overview

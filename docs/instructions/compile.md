@@ -7,6 +7,7 @@ title: Compile
 parent: Instructions
 grand_parent: Docs
 nav_order: 6
+permalink: /docs/instructions/compile.html
 ---
 
 # Compile

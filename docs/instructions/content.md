@@ -7,6 +7,7 @@ title: Content
 parent: Instructions
 grand_parent: Docs
 nav_order: 5
+permalink: /docs/instructions/content.html
 ---
 
 # Content

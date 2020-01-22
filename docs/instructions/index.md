@@ -8,6 +8,7 @@ parent: Docs
 has_children: true
 has_toc: false
 nav_order: 2
+permalink: /docs/instructions/
 ---
 
 # User Instructions

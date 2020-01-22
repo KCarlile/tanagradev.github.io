@@ -7,6 +7,7 @@ title: Convert
 parent: Instructions
 grand_parent: Docs
 nav_order: 4
+permalink: /docs/instructions/convert.html
 ---
 
 # Convert

@@ -23,8 +23,6 @@ In short, Tanagra works like this:
 
 *The Tanagra workflow from project creation to generated e-book!*
 
-
-
 <span class="fs-5">
 <button type="button" name="button" class="btn btn-purple mr-2" onclick="window.location.href='https://github.com/TanagraDev/tanagra/releases';">Download Tanagra</button>
 <button type="button" name="button" class="btn" onclick="window.location.href='https://github.com/TanagraDev/tanagra';">Clone Tanagra Repo</button>

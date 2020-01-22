@@ -7,12 +7,13 @@ title: Docs
 has_children: true
 nav_order: 1
 has_toc: false
+permalink: /docs/instructions/
 ---
 
 # Tanagra Documentation
 
 1. Index (this page)
-1. [Introduction](introduction.html)
+1. [Introduction](overview.html)
 1. [Instructions](instructions/index.html)
    1. [Setup](instructions/setup.html)
    1. [Instructions](instructions/index.html)

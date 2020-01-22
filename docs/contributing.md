@@ -6,6 +6,7 @@ layout: home
 title: Contributing
 parent: Docs
 nav_order: 4
+permalink: /docs/contributing.html
 ---
 
 # Contributing
